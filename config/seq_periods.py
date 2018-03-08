@@ -6,7 +6,7 @@ SEQ_PERIODS = {
     'television': 3600,
     'air conditioner': 3600,
     'washing machine': 3600,
-    'fridge': 3600,
+    'fridge': 360,
     'bottle warmer': 3600,
     'light': 3600,  
 }
