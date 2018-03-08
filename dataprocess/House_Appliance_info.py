@@ -50,17 +50,17 @@ class House_Appliance_info(object):
         file.write('appliances:\n')
         # helper function : convert catagory_id to appliance
         def rename(name):
-            if name == '0001':
+            if name == 1:
                 name = 'light'
-            if name == '0002':
+            if name == 2:
                 name = 'television'
-            if name == '0003':
+            if name == 3:
                 name = 'fridge'
-            if name == '0004':
+            if name == 4:
                 name = 'air conditioner'
-            if name == '0005':
+            if name == 5:
                 name = 'bottle warmer'
-            if name == '0006':
+            if name == 6:
                 name = 'washing machine'
             if name == '1002':
                 name = 'fridge'

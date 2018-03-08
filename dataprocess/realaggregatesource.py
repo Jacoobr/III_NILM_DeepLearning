@@ -244,7 +244,7 @@ class RealAggregateSource(ActivationsSource):
         else:
             _seq_getter_func = self._get_sequence_without_target
 
-        MAX_RETRIES = 50
+        MAX_RETRIES = 1000
         for retry_i in range(MAX_RETRIES):
             seq = _seq_getter_func(fold=fold)
             if seq is None:
